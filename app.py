@@ -2,7 +2,7 @@ import streamlit as st
 import joblib 
 
 #load the joblib model 
-model_nb = joblib.load('amazon')
+model_nb = joblib.load('amazon.csv')
 
 #user input 
 st.title("REVIEW CLASSIFIER")
